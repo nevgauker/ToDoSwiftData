@@ -11,6 +11,8 @@
 		DCD2F0C12AED655200DA9EE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2F0C02AED655200DA9EE6 /* ContentView.swift */; };
 		DCD2F0C32AED655400DA9EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD2F0C22AED655400DA9EE6 /* Assets.xcassets */; };
 		DCD2F0C62AED655400DA9EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD2F0C52AED655400DA9EE6 /* Preview Assets.xcassets */; };
+		DCD2F0CD2AED658400DA9EE6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2F0CC2AED658300DA9EE6 /* Task.swift */; };
+		DCD2F0CF2AED690B00DA9EE6 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2F0CE2AED690B00DA9EE6 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DCD2F0C02AED655200DA9EE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCD2F0C22AED655400DA9EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD2F0C52AED655400DA9EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCD2F0CC2AED658300DA9EE6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DCD2F0CE2AED690B00DA9EE6 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		DCD2F0BD2AED655200DA9EE6 /* ToDoSwiftData */ = {
 			isa = PBXGroup;
 			children = (
+				DCD2F0CE2AED690B00DA9EE6 /* NewTaskView.swift */,
 				DCD2F0BE2AED655200DA9EE6 /* ToDoSwiftDataApp.swift */,
 				DCD2F0C02AED655200DA9EE6 /* ContentView.swift */,
 				DCD2F0C22AED655400DA9EE6 /* Assets.xcassets */,
 				DCD2F0C42AED655400DA9EE6 /* Preview Content */,
+				DCD2F0CC2AED658300DA9EE6 /* Task.swift */,
 			);
 			path = ToDoSwiftData;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD2F0CF2AED690B00DA9EE6 /* NewTaskView.swift in Sources */,
 				DCD2F0C12AED655200DA9EE6 /* ContentView.swift in Sources */,
+				DCD2F0CD2AED658400DA9EE6 /* Task.swift in Sources */,
 				DCD2F0BF2AED655200DA9EE6 /* ToDoSwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
